@@ -1,7 +1,5 @@
 FROM node:4
 
-MAINTAINER anhulife "anhulife@gmail.com"
-
 RUN apt-get update
 # 安装 CNPM
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
