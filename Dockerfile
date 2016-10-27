@@ -7,7 +7,7 @@ RUN npm install -s -g cnpm --registry=https://registry.npm.taobao.org
 RUN cnpm install -g bower@1.6.9
 
 # 安装 喵呜
-RUN cnpm install -g miaow@5.4.0
+RUN cnpm install -g miaow@5.6.1
 RUN cnpm install miaow-development-config
 RUN cnpm install miaow-production-config@1.10.2
 
